@@ -57,6 +57,17 @@ Program ini memiliki fungsi utama sebagai berikut:
 
 ---
 
+## 📄 Contoh Input & Output
+
+| Menu | Input | Output |
+|------|-------|--------|
+| 1 (Hitung Tarif) | 2500 | Tarif : Rp 13550<br>Apakah ingin kembali ke menu? (y/n) : n<br>Program Selesai Terima Kasih! |
+| 2 (Simulasi Beberapa Perjalanan) | 3 perjalanan: 1200, 800, 2500 | === Rincian Tarif Perjalanan ===<br>Perjalanan ke-1 (1200 m): Rp 9500<br>Perjalanan ke-2 (800 m): Rp 5000<br>Perjalanan ke-3 (2500 m): Rp 13550<br>Total semua perjalanan : Rp 28550<br>Apakah ingin kembali ke menu? (y/n) : n |
+| Error (Jarak Negatif) | -500 | Input tidak valid, jarak tidak boleh negatif<br>Apakah ingin kembali ke menu? (y/n) : |
+| Error (Menu Salah) | 5 | Pilihan tidak valid, silahkan coba lagi.<br>Apakah ingin kembali ke menu? (y/n) : |
+
+---
+
 ## 🚀 Proyeksi Kedepan
 Beberapa pengembangan yang bisa dilakukan di masa depan:
 1. Menambahkan opsi tarif berdasarkan waktu (misalnya tarif malam atau tarif rush hour).
