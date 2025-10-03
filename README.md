@@ -10,7 +10,7 @@
    - Luna Adelia 
      (2507071002)
    - Diya Naura Alifa 
-     (2507071021)
+     (2507071023)
 
 ---
 
@@ -69,11 +69,10 @@ Program ini memiliki fungsi utama sebagai berikut:
 
 ## 🚀 Proyeksi Kedepan
 Beberapa pengembangan yang bisa dilakukan di masa depan:
-1. Menambahkan opsi tarif berdasarkan waktu (misalnya tarif malam atau tarif rush hour).
+1. Menambahkan opsi tarif berdasarkan waktu (misalnya tarif malam).
 2. Menyimpan riwayat perjalanan ke file eksternal (CSV atau TXT).
 3. Menambahkan fitur diskon promo atau voucher.
-4. Mengembangkan versi GUI menggunakan library C++ seperti Qt atau SFML.
-5. Mengintegrasikan dengan data GPS untuk simulasi jarak yang lebih realistis.
+4. Mengintegrasikan dengan data GPS untuk simulasi jarak yang lebih realistis.
 
 ---
 
