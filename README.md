@@ -3,14 +3,14 @@
 ---
 
 ## 👨‍💼👩‍💼 Pembuat Project
-   - Dimas Antareza
-       NPM (2507071021)
-   - M Faiz Widyatmoko
-       NPM (2507071026)
-   - Luna Adelia
-       NPM (2507071021)
-   - Luna Adelia
-       NPM (2507071021)
+   - Dimas Antareza 
+     (2507071021)
+   - M Faiz Widyatmoko 
+     (2507071026)
+   - Luna Adelia 
+     (2507071002)
+   - Diya Naura Alifa 
+     (2507071021)
 
 ---
 
