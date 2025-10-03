@@ -21,7 +21,7 @@ Seiring berkembangnya transportasi online, perhitungan tarif ojek semakin komple
 
 ## 💡 Fungsi Program
 Program ini memiliki fungsi utama sebagai berikut:
-1. Menghitung tarif perjalanan ojek berdasarkan jarak dengan skema diskon 10% per blok 1000 meter setelah blok pertama.
+1. Menghitung tarif perjalanan ojek berdasarkan jarak dengan aturan diskon 10% per blok 1000 meter.
 2. Menyediakan simulasi beberapa perjalanan sekaligus untuk mengetahui total tarif.
 3. Memberikan opsi menu interaktif yang mudah dipahami pengguna.
 4. Menangani input yang tidak valid (misalnya jarak negatif atau pilihan menu salah).
@@ -29,13 +29,13 @@ Program ini memiliki fungsi utama sebagai berikut:
 ---
 
 ## 🛠 Langkah-langkah Membuat Program
-1. **Persiapan**: Buat project baru di VS Code dan buat file `main.cpp`.
-2. **Membuat fungsi tarif**: Buat fungsi `hitungan_tarif(int jarak)` untuk menghitung tarif per perjalanan.
-3. **Membuat menu interaktif**: Gunakan `do-while` dan `switch-case` untuk menu utama (hitung 1 perjalanan, simulasi banyak perjalanan, keluar).
+1. **Persiapan**: Buat project baru di VScode dan buat file `main.cpp`.
+2. **Membuat fungsi tarif**: Buat fungsi `hitungan_tarif(int jarak)` untuk menghitung tarif perjalanan.
+3. **Membuat menu interaktif**: Gunakan `do-while` dan `switch-case` untuk menu utama (hitung 1 tarif perjalanan, simulasi untuk tarif beberapa perjalanan, keluar).
 4. **Menangani input pengguna**: Tambahkan validasi untuk input jarak negatif dan pilihan menu salah.
-5. **Simulasi beberapa perjalanan**: Gunakan `vector` untuk menyimpan jarak dan tarif tiap perjalanan, lalu hitung total.
-6. **Loop menu**: Tambahkan opsi kembali ke menu utama setelah menyelesaikan suatu perhitungan.
-7. **Output**: Tampilkan tarif per perjalanan dan total perjalanan jika melakukan simulasi banyak perjalanan.
+5. **Simulasi beberapa perjalanan**: Gunakan `vector` untuk menyimpan jarak dan tarif tiap perjalanan, setelah itu hitung total.
+6. **Loop menu**: Tambahkan opsi kembali ke menu utama setelah menyelesaikan perhitungan.
+7. **Output**: Tampilkan tarif perjalanan dan total perjalanan jika melakukan simulasi beberapa perjalanan.
 
 ---
 
@@ -49,8 +49,8 @@ Program ini memiliki fungsi utama sebagai berikut:
    - `case 2`: Input jumlah perjalanan → input jarak tiap perjalanan → hitung tarif tiap perjalanan → tampilkan rincian dan total.
    - `case 3`: Keluar program.
 3. **Validasi input**:
-   - Jika jarak < 0 → tampilkan pesan error.
-   - Jika menu salah → tampilkan pesan error.
+   - Jika jarak < 0 → tampilkan pesan bahwa input tidak valid.
+   - Jika menu salah → tampilkan pesan bahwa input tidak valid.
 4. **Looping**:
    - Program kembali ke menu utama jika pengguna memilih `y`/`Y` setelah menyelesaikan perhitungan.
 
