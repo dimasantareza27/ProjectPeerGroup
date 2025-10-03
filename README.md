@@ -1,5 +1,20 @@
 # Ojek Tarif Simulator
 
+---
+
+## 👨‍💼👩‍💼 Pembuat Project
+   - Dimas Antareza
+     NPM (2507071021)
+   - Luna Adelia
+     NPM (2507071021)
+   - Dimas Antareza
+     NPM (2507071021)
+   - Dimas Antareza
+     NPM (2507071021)
+
+
+---
+
 ## 📖 Latar Belakang
 Seiring berkembangnya transportasi online, perhitungan tarif ojek semakin kompleks karena adanya variasi jarak dan potongan harga tertentu. Project **Ojek Tarif Simulator** dibuat untuk memudahkan pengguna menghitung tarif ojek berdasarkan jarak yang ditempuh, termasuk simulasi beberapa perjalanan sekaligus. Program ini dirancang agar mudah digunakan, akurat, dan dapat menjadi alat pembelajaran algoritma dasar dalam pemrograman C++.
 
